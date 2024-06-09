@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(3, 3, 13);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a{
+  text-decoration: none;
+  color: #f9f9f9;
+}
+a:hover{
+  color: #35de57;
+
+}
+.border{
+height: 1px;
+color: #a8a8a83d;
+}
+.vote{
+  background-color: rgb(105, 151, 243);
+}
+.offline{
+  background-color: rgb(111, 195, 222);
+  box-shadow: 10px 10px 10px #ccc;
+  position: fixed;
+  padding: 20px;
+  left: 50px;
+  bottom: 50px;
+  z-index: 9999;
+
 }
